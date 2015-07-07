@@ -18,7 +18,7 @@
     //increment the time since the last obstacle was added
     timeSinceObstacle += delta; //delta es 1/60 de segundo
     //comprueba si han pasado 2 segundos:
-    if (timeSinceObstacle > 1.5f)
+    if (timeSinceObstacle > 2.5f)
     {
         //se añade otro obstaculo
         [self addObstacle];
