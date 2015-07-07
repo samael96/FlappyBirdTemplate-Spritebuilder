@@ -20,7 +20,7 @@
 
 - (void)flap
 {
-    [self.physicsBody applyImpulse:ccp(100, 400.f)];
+    [self.physicsBody applyImpulse:ccp(240, 400.f)];
 }
 
 @end
